@@ -10,7 +10,7 @@
 namespace Junior_Parcial1_Ap2 {
     
     
-    public partial class Materiales {
+    public partial class SolicitudRegistro {
         
         /// <summary>
         /// form1 control.
@@ -22,93 +22,102 @@ namespace Junior_Parcial1_Ap2 {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// TextBoxId control.
+        /// IdTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxId;
+        protected global::System.Web.UI.WebControls.TextBox IdTextBox;
         
         /// <summary>
-        /// ButtonBuscar control.
+        /// BuscarButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonBuscar;
+        protected global::System.Web.UI.WebControls.Button BuscarButton;
         
         /// <summary>
-        /// TextBoxRazon control.
+        /// RazonTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxRazon;
+        protected global::System.Web.UI.WebControls.TextBox RazonTextBox;
         
         /// <summary>
-        /// TextBoxMaterial control.
+        /// TotalTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxMaterial;
+        protected global::System.Web.UI.WebControls.TextBox TotalTextBox;
         
         /// <summary>
-        /// TextBoxCantidad control.
+        /// FechaTextBox0 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxCantidad;
+        protected global::System.Web.UI.WebControls.TextBox FechaTextBox0;
         
         /// <summary>
-        /// ButtonAgregar control.
+        /// FechaButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonAgregar;
+        protected global::System.Web.UI.WebControls.Button FechaButton;
         
         /// <summary>
-        /// MaterialGridView control.
+        /// GuardarButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView MaterialGridView;
+        protected global::System.Web.UI.WebControls.Button GuardarButton;
         
         /// <summary>
-        /// ButtonNuevo control.
+        /// EliminarButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonNuevo;
+        protected global::System.Web.UI.WebControls.Button EliminarButton;
         
         /// <summary>
-        /// ButtonGuardar control.
+        /// LimpiarButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonGuardar;
+        protected global::System.Web.UI.WebControls.Button LimpiarButton;
         
         /// <summary>
-        /// ButtonEliminar control.
+        /// FechaLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonEliminar;
+        protected global::System.Web.UI.WebControls.Label FechaLabel;
+        
+        /// <summary>
+        /// FechaCalendar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Calendar FechaCalendar;
     }
 }

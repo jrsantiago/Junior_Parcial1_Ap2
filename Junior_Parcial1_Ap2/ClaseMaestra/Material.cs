@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using DAL;
 
-namespace ClaseMaestra
+namespace BLL
 {
     public class Material : ClaseMaestra
     {
